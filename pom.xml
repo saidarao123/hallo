@@ -62,12 +62,5 @@
       </plugins>
     </pluginManagement>
   </build>
-  
-  <distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <url>http://192.168.106.129:8081/nexus/content/repositories/nexus</url>
-  </snapshotRepository>
-</distributionManagement>
       
 </project>
