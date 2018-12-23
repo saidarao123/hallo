@@ -65,8 +65,8 @@
   
   <distributionManagement>
   <snapshotRepository>
-    <id>phase3-deploy</id>
-    <url>http://ec2-52-15-170-17.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/phase3-deploy</url>
+    <id>saida</id>
+    <url>http://ec2-18-216-191-240.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/saida</url>
   </snapshotRepository>
 </distributionManagement>
       
