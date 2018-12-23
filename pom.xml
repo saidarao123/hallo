@@ -64,9 +64,9 @@
   </build>
   
  <distributionManagement>
-  <snapshotRepository>
-    <id>radha</id>
-    <url>http://ec2-18-191-66-162.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/radha</url>
-  </snapshotRepository>
+  <repository>
+    <id>mama</id>
+    <url>http://ec2-18-191-66-162.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/mama</url>
+  </repository>
 </distributionManagement>
 </project>
