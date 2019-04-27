@@ -1,4 +1,4 @@
-node ('master'){
+node ('servero2'){
     stage('initialize'){
         def mvn_path="/usr/share/maven/bin"
         def WORKSPACE=pwd()
