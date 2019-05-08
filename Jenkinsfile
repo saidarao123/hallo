@@ -17,9 +17,9 @@ def getMavenLocation() {
 pipeline {
     agent any 
     stages {
-        stage('checkout') {
+        stage('clone') {
             steps {
-            git clone "https://github.com/viswanathkatta/mahendra.git"
+            git branch: 'master', url: "https://github.com/viswanathkatta/mahendra.git
                 }
     }
   }
