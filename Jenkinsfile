@@ -7,7 +7,7 @@ def getJDKVersion() {
 }
 
 def getMavenConfig() {
-    return '/usr/share/maven'
+    return 'maven-config'
 }
 
 def getMavenLocation() {
