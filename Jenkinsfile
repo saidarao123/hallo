@@ -7,11 +7,11 @@ def getJDKVersion() {
 }
 
 def getMavenConfig() {
-    return 'maven-config'
+    return '/usr/share/maven'
 }
 
 def getMavenLocation() {
-    return '/usr/share/maven'
+    return 'M2_HOME'
 }
 
 pipeline {
