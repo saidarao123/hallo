@@ -24,7 +24,7 @@ pipeline {
    
         }
   
-                stage('Maven Install') {
+           stage('Maven Install') {
             steps {
                 script {
                     /**
@@ -51,4 +51,4 @@ pipeline {
                     }
                 }
             }
-                }
+          }
