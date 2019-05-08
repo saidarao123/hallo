@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-            git clone 'https://github.com/viswanathkatta/mahendra.git'
+            git clone "https://github.com/viswanathkatta/mahendra.git"
                 }
     }
   }
