@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-            git branch: 'master', url: "https://github.com/viswanathkatta/mahendra.git
+            git branch: 'master', url: "https://github.com/viswanathkatta/mahendra.git"
                 }
     }
   }
