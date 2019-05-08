@@ -18,9 +18,10 @@ pipeline {
     agent any 
     stages {
         stage('checkout') {
+            steps {
             git clone 'https://github.com/viswanathkatta/mahendra.git'
                 }
     }
+  }
 }
-
 
