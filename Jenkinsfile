@@ -6,3 +6,5 @@ pipeline {
                 git branch: 'master', url: "https://github.com/jfrog/project-examples.git"
             }
         }
+    }
+}
