@@ -1,10 +1,8 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage ('Clone') {
             steps {
-                sh "mvn package"
-                    }
+                git branch: 'master', url: "https://github.com/jfrog/project-examples.git"
+            }
         }
-    }
-}
