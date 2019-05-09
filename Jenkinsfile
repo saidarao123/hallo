@@ -11,7 +11,7 @@ def getMavenConfig() {
 }
 
 def getMavenLocation() {
-    return 'M2_HOME'
+    return 'mvnHome'
 }
 
 pipeline {
