@@ -41,7 +41,8 @@ pipeline {
                          * enclose this stage in a try-catch block
                          */
                         try {
-                            sh "mvn clean install"
+                              sh "${mvnHome}/bin/mvn -B install"
+
                             } catch (Exception err) {
                             echo 'Maven clean install failed'
                             currentBuild.result = 'FAILURE'
